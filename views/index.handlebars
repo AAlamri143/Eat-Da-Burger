@@ -1,23 +1,22 @@
 <section class="content">
     <div class="title">
-   <h1 id="E">E</h1> <h1 class="pageHead">at Da Burger!!</h1>
+    <h1 id="E">E</h1> <h1 class="pageHead">at Da Burger!!</h1>
 </div>
-        <img src="/assets/images/fat.png" class="card-img-top" alt="...">
+<img src="/assets/images/fat.png" class="card-img-top" alt="...">
 
 
     {{!-- ///////ADDING/////// --}}
     
-    <form class="create-form">
-        {{!-- <h2>Add a Burger</h2> --}}
+<form class="create-form">
+    {{!-- <h2>Add a Burger</h2> --}}
 
-        <div class="form-group">
-        <input type="text" placeholder="    Burger Name" id="ca" name="name">
-                <button type="submit">Add</button>
+    <div class="form-group">
+    <input type="text" placeholder="    Burger Name" id="ca" name="name">
+        <button type="submit">Add</button>
+    </div>
+</form>
 
-        </div>
-    </form>
-
-    {{!-- ///////Left/////// --}}
+{{!-- ///////Left/////// --}}
              
 <div class="down">
     <div class="burgerListsSectionOrder">
@@ -60,7 +59,7 @@
             
             {{#each burgers}}
             {{#if devoured}}
-                        <div class="burgerItemNumber">
+                    <div class="burgerItemNumber">
                 <span>#{{id}}</span>
             </div>
             <div class="green">
